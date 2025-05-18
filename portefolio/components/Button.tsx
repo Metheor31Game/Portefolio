@@ -8,6 +8,7 @@ interface ButtonProps {
   text: string;
   color?: ButtonColor;
   size?: ButtonSize;
+  onClick?: () => void;
 }
 
 const Button = ({
@@ -15,6 +16,7 @@ const Button = ({
   text,
   color = "indigo",
   size = "base",
+  onClick,
 }: ButtonProps) => {
   const colorStyles: Record<ButtonColor, string> = {
     indigo: "bg-indigo-700 hover:bg-indigo-800",
@@ -32,6 +34,7 @@ const Button = ({
     <div className="inline-flex rounded-md shadow">
       <Link
         href={href}
+        onClick={onClick}
         className={`inline-flex items-center justify-center border border-transparent font-medium rounded-md text-white ${colorStyles[color]} ${sizeStyles[size]}`}
       >
         {text}
