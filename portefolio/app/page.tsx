@@ -22,10 +22,10 @@ export default function Home() {
           </h2>
           <div className="mt-6 max-w-3xl mx-auto text-lg text-gray-600 space-y-4">
             <p>
-              Je m'appelle Mathéo VIGNERES et j'ai 20 ans. Actuellement en
-              Licence d'informatique, je me spécialise dans la programmation,
-              les bases de données et l'algorithmique. Curieux et rigoureux,
-              j'aime relever des défis techniques, que ce soit pour mes études
+              Je m’appelle Mathéo VIGNERES et j’ai 20 ans. Actuellement en
+              Licence d’informatique, je me spécialise dans la programmation,
+              les bases de données et l’algorithmique. Curieux et rigoureux,
+              j’aime relever des défis techniques, que ce soit pour mes études
               ou mes projets personnels.
             </p>
             <p>
